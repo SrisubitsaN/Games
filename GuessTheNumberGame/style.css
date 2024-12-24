@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: lightcoral;
+}
+
+.container, .game-container {
+    margin-top: 6%;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+p {
+    font-size: 1.2rem;
+    color: #f5f5f5;
+}
+
+.start-btn, a {
+    display: inline-block;
+    padding: 1rem 2rem;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: beige;
+    color: black;
+    border-radius: 10px;
+}
+
+.start-btn:hover, .but:hover, #restart:hover {
+    background-color: lightgreen;
+}
+
+.buttons button {
+    margin: 10px;
+    padding: 1rem;
+    font-size: 1.2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: beige;
+}
+
+#score {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1.5rem;
+    border: none;
+    text-align: center;
+}
+
+#restart {
+    margin-top: 20px;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: beige;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
